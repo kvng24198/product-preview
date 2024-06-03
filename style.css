@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    t
+    
 }
 body{
     /* font-family: "Fraunces", serif;
@@ -12,17 +12,18 @@ body{
      display: flex;
      justify-content: center;
      align-items:center;
+     background-color: #F3EBE4;
 }
 .container{
-    border: 1px solid black;
     display: flex;
     width: 500px;
     border-radius: 15px;
+    background-color: white;
 }
 .image{
     background-image: url('./images/image-product-desktop.jpg');
     background-size: cover;
-    height: 400px;
+    height: 420px;
     width: 250px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -33,7 +34,56 @@ body{
 }
 h2{
     text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 200;
-    font-family: ;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 15px;
+    color:  hsl(228, 12%, 48%);
+
+}
+h3{
+    font-weight:700;
+    font-size: 30px;
+    font-family:"Fraunces", serif ;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color:  hsl(228, 12%, 48%);
+    margin-bottom: 25px;
+}
+.price-1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family:"Fraunces", serif ;
+    color: #3F8068;
+    padding-right: 10px;
+}
+.price-2{
+    color:  hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.price{
+    margin-bottom: 25px;
+}
+button{
+   width: 200px;
+   height: 40px;
+    text-align: center;
+    background-color: #3F8068;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    
+}
+svg{
+    width: 15px;
+     height:16px
+}
+.cart{
+    padding-left: 10px;
+    text-align: center;
+   font-weight: 600;
 }
